@@ -1,0 +1,25 @@
+{
+  "name": "webdev2019",
+  "version": "1.0.0",
+  "description": "An updated website built with NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "buildDev": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sean-bostic/WebDev.git"
+  },
+  "author": "Sean Bostic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sean-bostic/WebDev/issues"
+  },
+  "homepage": "https://github.com/sean-bostic/WebDev#readme",
+  "devDependencies": {
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
